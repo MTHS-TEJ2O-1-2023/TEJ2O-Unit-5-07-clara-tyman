@@ -2,7 +2,7 @@
  *
  * Created by: Clara
  * Created on: Nov 8th
- * This program ...
+ * This program turns a servo moter with microbit
 */
 
 // variables
@@ -20,7 +20,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showString('180')
   basic.showIcon(IconNames.SmallSquare)
 
-  // clear screen 
+  // clear screen
   basic.clearScreen()
   basic.showIcon(IconNames.Silly)
 })
@@ -29,7 +29,8 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
   robotbit.Servo(servoNumber1, 0)
   basic.clearScreen()
-  // show amount turned 
+  
+  // show amount turned
   basic.showString('0')
   basic.showIcon(IconNames.SmallSquare)
   // clear screen
