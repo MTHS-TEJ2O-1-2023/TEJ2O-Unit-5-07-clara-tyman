@@ -29,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
   robotbit.Servo(servoNumber1, 0)
   basic.clearScreen()
-  
+
   // show amount turned
   basic.showString('0')
   basic.showIcon(IconNames.SmallSquare)
